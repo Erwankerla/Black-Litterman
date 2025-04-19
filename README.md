@@ -12,7 +12,7 @@ Ce projet contient un travail de recherche approfondi sur le modèle de Black-Li
 
 - `BlackLittermanInputs.py` : génère les matrices **P** (structure des opinions), **Q** (prévisions) et **Ω** (incertitudes) selon les méthodes **Idzorek** ou **Walter**.
 
-- `BlackLittermanModel.py` : applique le modèle Black-Litterman pour produire les **rendements ajustés**, la **nouvelle matrice de covariance** et visualiser la **frontière efficiente**.
+- `BlackLittermanModel.py` : applique le modèle Black-Litterman pour produire les **rendements ajustés** et la **nouvelle matrice de covariance**.
 
 - `PortfolioOptimization.py` : optimisations avec ou sans contraintes, en maximisant l’utilité ajustée du risque.
 
