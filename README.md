@@ -9,15 +9,10 @@ Ce projet contient un travail de recherche approfondi sur le modèle de Black-Li
 💻 Le code Python associé, ainsi que les données utilisées pour illustrer le modèle, se trouvent dans le dossier `Implémentation/`:
 
 - `ImpliedReturnsCreator.py` : calcule les **rendements implicites**, la **matrice de covariance**, l’**aversion au risque** et le paramètre **tau**.
-
 - `BlackLittermanInputs.py` : génère les matrices **P** (opinions), **Q** (prévisions) et **Ω** (incertitudes) selon les méthodes **Idzorek** ou **Walter**.
-
 - `BlackLittermanModel.py` : applique le modèle Black-Litterman pour produire les **rendements ajustés** et la **nouvelle matrice de covariance**.
-
 - `PortfolioOptimization.py` : optimisations avec ou sans contraintes, en maximisant l’utilité ajustée du risque.
-
 - `PlotFunctions.py` : propose des visualisations interactives (effet de tau, poids ajustés, surfaces 3D, etc.).
-
 - `main.py` : script principal qui enchaîne toutes les étapes : lecture des données, calculs, modèle BL, optimisation, visualisations.
 ---
 
