@@ -13,7 +13,7 @@ Ce projet contient un travail de recherche approfondi sur le modèle de Black-Li
 - `BlackLittermanModel.py` : applique le modèle Black-Litterman pour produire les **rendements ajustés** et la **nouvelle matrice de covariance**.
 - `PortfolioOptimization.py` : optimisations avec ou sans contraintes, en maximisant l’utilité ajustée du risque.
 - `PlotFunctions.py` : propose des visualisations interactives (effet de tau, poids ajustés, surfaces 3D, etc.).
-- `main.py` : script principal qui enchaîne toutes les étapes : lecture des données, calculs, modèle BL, optimisation, visualisations.
+- `main.py` : script qui enchaîne les étapes : lecture des données, calculs, modèle BL, optimisation, visualisations.
 ---
 
 **Objectif** : fournir une ressource pédagogique et pratique sur le modèle de Black-Litterman, utile à ceux qui sont intéressés par la gestion d’actifs.
